@@ -1,0 +1,1 @@
+Left,Top,Right,Bottom,Score,Class ID,Area

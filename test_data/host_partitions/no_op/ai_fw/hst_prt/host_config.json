@@ -1,0 +1,61 @@
+{
+    "host" : 
+    [
+        {
+            "layer_id" : 0,
+            "num_in_col" : 
+            [
+                20,
+                40,
+                80
+            ],
+            "num_in_filters" : 
+            [
+                75,
+                75,
+                75
+            ],
+            "num_in_rows" : 
+            [
+                20,
+                40,
+                80
+            ],
+            "host_out_shape" : [],
+            "inp_layers" : [1, 2, 4], 
+            "dest_layers" : []
+        }, 
+        {
+            "layer_id" : 99,
+            "num_in_col" : [],
+            "num_in_filters" : [],
+            "num_in_rows" : [], 
+            "host_out_shape" : [
+                [
+                    3,
+                    20,
+                    20,
+                    25
+                ],
+                [
+                    25200,
+                    25
+                ],
+                [
+                    3,
+                    40,
+                    40,
+                    25
+                ],
+                [
+                    3,
+                    80,
+                    80,
+                    25
+                ]
+            ],
+            "inp_layers" : [], 
+            "dest_layers" : [100, 101, 102, 103]
+        }
+    ]
+}

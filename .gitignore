@@ -1,0 +1,14 @@
+*.out
+*.o
+*.so
+*.Identifier
+*.a
+*.mp4
+*.log
+
+.vscode/
+__pycache__/
+
+test_data/img_with_preds/**
+!test_data/img_with_preds/README.md
+test_data/host_partitions/front_model_host_fixes/**
