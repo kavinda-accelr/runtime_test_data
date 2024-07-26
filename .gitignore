@@ -11,4 +11,6 @@ __pycache__/
 
 test_data/img_with_preds/**
 !test_data/img_with_preds/README.md
-test_data/host_partitions/front_model_host_fixes/**
+
+test_data/host_partitions/protected/**
+!test_data/host_partitions/protected/README.md
