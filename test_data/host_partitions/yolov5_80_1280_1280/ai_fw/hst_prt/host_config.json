@@ -1,0 +1,37 @@
+{
+    "host" : 
+    [
+        {
+            "layer_id" : 106,
+            "num_in_col" : [],
+            "num_in_filters" : [],
+            "num_in_rows" : [], 
+            "host_out_shape" : [
+                [
+                    3,
+                    20,
+                    20,
+                    25
+                ],
+                [
+                    25200,
+                    25
+                ],
+                [
+                    3,
+                    40,
+                    40,
+                    25
+                ],
+                [
+                    3,
+                    80,
+                    80,
+                    25
+                ]
+            ],
+            "inp_layers" : [], 
+            "dest_layers" : [107]
+        }
+    ]
+}
